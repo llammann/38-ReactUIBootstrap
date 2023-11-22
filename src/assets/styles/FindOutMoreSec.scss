@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.FindOutMore {
+    background-color: #F6C21B;
+    width: 100%;
+
+    .container {
+        // background-color: rgb(81, 212, 190);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 1200px;
+        text-align: center;
+        padding: 0;
+        padding: 8rem;
+        background-image: url("https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg");
+        background-position: contain;
+        background-size: 100%;
+
+        h1 {
+            font-size: 4rem;
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 0.25rem;
+            max-width: fit-content;
+
+        }
+
+        p {
+            font-style: italic;
+            font-size: calc(1.3rem + 0.6vw);
+            font-weight: 700;
+            line-height: 1.2;
+            margin: 0;
+            padding-bottom: 3rem;
+            max-width: fit-content;
+        }
+
+        button {
+            padding: 1.25rem 2.5rem;
+            background-color: #1D809F;
+            border: none;
+            border-radius: 4px;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+
+            &:hover {
+                background-color: #136882;
+                ;
+            }
+        }
+    }
+}
